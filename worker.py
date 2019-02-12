@@ -18,8 +18,8 @@ from keras.layers import Lambda
 import numpy as np
 import pylab
 import os
-from utils import prepare_data
-import utils
+from mn_utils import prepare_data
+import mn_utils as utils
 import matplotlib.pyplot as plt
 import six
 

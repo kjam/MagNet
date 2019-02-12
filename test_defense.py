@@ -6,9 +6,9 @@
 ## contained in the LICENCE file in this directory.
 
 from setup_mnist import MNIST
-from utils import prepare_data
+from mn_utils import prepare_data
 from worker import AEDetector, SimpleReformer, IdReformer, AttackData, Classifier, Operator, Evaluator
-import utils
+import mn_utils as utils
 
 
 detector_I = AEDetector("./defensive_models/MNIST_I", p=2)
